@@ -1,7 +1,7 @@
 # Пояснення кода
 1) Генератор списку з умовою та приєднанням елементів
 
-![image](https://user-images.githubusercontent.com/86650368/124724591-cb6a1880-df14-11eb-90be-97718e8d71c4.png)
+![image](https://user-images.githubusercontent.com/86650368/124727187-28ff6480-df17-11eb-8e81-8291b2b331b5.png)
 
 2) Пошук цілих чисел
 
