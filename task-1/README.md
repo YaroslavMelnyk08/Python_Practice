@@ -38,3 +38,16 @@
 
 ![image](https://user-images.githubusercontent.com/86650368/124726917-dfaf1500-df16-11eb-86af-902b3ea70f3c.png)
 
+# Дії з Git
+
+Переходимо в свою папку та логінимося
+
+![image](https://user-images.githubusercontent.com/86650368/125037032-5b869a00-e09c-11eb-9dcc-54fb3d3deeb3.png)
+
+Створюємо Task1
+
+![image](https://user-images.githubusercontent.com/86650368/125037246-9092ec80-e09c-11eb-94ee-f2c4773a9f99.png)
+
+Загружаємо файл на Git
+
+![image](https://user-images.githubusercontent.com/86650368/125037366-b5875f80-e09c-11eb-8c59-92e4f8c1d7ba.png)
