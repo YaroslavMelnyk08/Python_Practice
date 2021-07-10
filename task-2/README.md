@@ -57,7 +57,7 @@
 
 15) Кнопки для додаткових функцій
 
-![image](https://user-images.githubusercontent.com/86650368/125157649-ecc93f80-e174-11eb-9a8a-414f899e8323.png)
+![image](https://user-images.githubusercontent.com/86650368/125157734-3d409d00-e175-11eb-95c4-607008aba832.png)
 
 16) Кнопки = та С
 
