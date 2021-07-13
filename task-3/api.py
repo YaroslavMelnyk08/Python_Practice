@@ -39,7 +39,7 @@ def Ref():
     All_Info = data.decode("utf-8")
     json = json.loads(All_Info)
     TextBox.insert('1.0', '\n')
-    TextBox.insert('1.0', '=' * 30)
+    
     for i in range(n):
         TextBox.insert('1.0', '\n')
         TextBox.insert('1.0', list(json[i].items())[14])
@@ -52,7 +52,7 @@ def Ref():
         TextBox.insert('1.0', '\n')
         TextBox.insert('1.0', list(json[i].items())[2])
         TextBox.insert('1.0', '\n')
-        TextBox.insert('1.0', '=' * 30)
+        TextBox.insert('1.0', '\n')
 
 def Search():
     j=0
@@ -81,8 +81,6 @@ def Search():
                 TextBox.insert('1.0', '         We found!')
                 TextBox.insert('1.0', '\n')
                 TextBox.insert('1.0', '*' * 30)
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', '=' * 30)
         else : j+=1
         if j==8:
             TextBox.insert('1.0', '\n')
