@@ -54,42 +54,6 @@ def Ref():
         TextBox.insert('1.0', '\n')
         TextBox.insert('1.0', '\n')
 
-def Search():
-    j=0
-    for i in range(n):
-        InputedCountry = EntryCountry.get()
-        GetCountry = json[i].get('Country')
-        if InputedCountry == GetCountry:
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', json[i].get('TotalRecovered'))
-                TextBox.insert('1.0', 'TotalRecovered : ')
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', json[i].get('TotalDeaths'))
-                TextBox.insert('1.0', 'TotalDeaths : ')
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', json[i].get('TotalCases'))
-                TextBox.insert('1.0', 'TotalCases : ')
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', json[i].get('Continent'))
-                TextBox.insert('1.0', 'Continent : ')
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', json[i].get('Country'))
-                TextBox.insert('1.0', 'Country : ')
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', '*' * 30)
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', '         We found!')
-                TextBox.insert('1.0', '\n')
-                TextBox.insert('1.0', '*' * 30)
-        else : j+=1
-        if j==8:
-            TextBox.insert('1.0', '\n')
-            TextBox.insert('1.0', '*' * 30)
-            TextBox.insert('1.0', '\n')
-            TextBox.insert('1.0', '          We didnt found')
-            TextBox.insert('1.0', '\n')
-            TextBox.insert('1.0', '*' * 30)
-
 Refbutton = Button(frametop, text="Оновлення",command=Ref)
 Refbutton['bg']='#C0C0C0'
 Refbutton['fg']='#800000'
